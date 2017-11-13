@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func pressByCode(_ sender: Any) {
+        self.navigationController?.pushViewController(ByCodeViewController(), animated: true)
+    }
 }
 
